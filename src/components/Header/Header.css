@@ -1,0 +1,78 @@
+.Header {
+    height: 80px;
+    display: flex;
+}
+
+.Header-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-right: 80px;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+
+.Header-navContainer {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textColorWhite {
+    color: #fff;
+}
+
+svg {
+    height: 40px;
+}
+
+.HeaderTitle {
+    display: none;
+}
+
+@media screen and (min-width: 1367px) {
+    .Header-container {
+        width: 80%;
+        margin-right: 20px;
+        margin: 0 auto;
+    }
+    .HeaderTitle {
+        display: block;
+    }
+    .Header-navContainer {
+        width: 30%;
+        margin-right: 5%;
+    }
+    .Header-buttonLogo {
+        display: flex;
+        align-items: center;
+    }
+    .HeaderTitle {
+        display: block;
+        height: 25px;
+        margin-left: 1rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Header {
+        height: 60px;
+    }
+    .Header-container {
+        margin-right: 20px;
+    }
+    .Header-navContainer {
+        width: 60%;
+        font-size: 1rem;
+    }
+    svg {
+        height: 35px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .Header-navContainer {
+        width: 65%;
+        font-size: .9rem;
+    }
+}

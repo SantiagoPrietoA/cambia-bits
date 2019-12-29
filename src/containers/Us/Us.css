@@ -1,0 +1,198 @@
+.Us {
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: calc(100vh - 160px);
+    padding-bottom: 80px;
+}
+
+.Us .UsContent-CambiaBits {
+    width: 60%;
+}
+
+.UsContent-Title {
+    font-family: "montserrat extrabold italic";
+    font-family: "montserrat extrabold";
+    font-style: italic;
+    font-size: 2.5rem;
+    color: #233746;
+    margin-top: 0;
+}
+
+.UsContent-Title .UsContent-Bits {
+    color: #0086C8;
+}
+
+.menu {
+    position: fixed;
+    left: 35px;
+    top: calc(50vh - 100px);
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu .item {
+    height: 10px;
+    width: 10px;
+    background: inherit;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu .circleItem {
+    height: 20px;
+    width: 20px;
+    border: 5px solid #233746;
+    border-radius: 25px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+
+.outline-none {
+    outline: none;
+}
+
+.circleItemAnimated {
+    animation-duration: .7s;
+    animation-name: circleItemAnimated;
+}
+
+@keyframes circleItemAnimated {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(.5);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.ImageUs {
+    position: fixed;
+    top: -200px;
+    right: -6%;
+    width: 50%;
+    height: auto;
+    transform: rotate(-30deg);
+    z-index: -10;
+    border-radius: 22%;
+    /* background: linear-gradient(30deg, #00c946, #2297cd, #d11de1, #37168d, #25e9c6, #1267e0, #8f1dbe, #40088b); */
+    background: linear-gradient(0deg, #8f1dbe, #40088b, #00c946, #2297cd, #25e9c6, #1267e0, #d11de1, #37168d);
+    /* background: linear-gradient(30deg, #000000, #ffffff); */
+    background-size: 800% 800%;
+    background-position: 100% 100%;
+    transition: background-position 1s;
+    clip-path: inset(0 0 0 0 round 22%);
+}
+
+.ImageTransparent {
+    width: 100%;
+}
+
+.imgContainer {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.ImageUs-image {
+    width: 80%;
+    /* transform: rotate(30deg); */
+    position: absolute;
+    left: -40px;
+    bottom: 0;
+}
+
+.ImageUs-image-coin {
+    width: 80%;
+    position: absolute;
+    left: -50px;
+    bottom: 50px;
+}
+
+@media screen and (min-width: 1367px) {
+    .ImageUs {
+        top: -300px;
+        right: -6%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .ImageUs {
+        top: -200px;
+        right: -6%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ImageUs {
+        top: -200px;
+        right: -6%;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .UsContent-Title {
+        width: 60%;
+        font-size: 2rem;
+    }
+    .Us {
+        padding-top: 250px;
+        align-items: flex-start;
+        width: 90%;
+    }
+    .menu {
+        top: 100px;
+    }
+    .ImageUs {
+        top: -145px;
+        right: -10%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .Us .UsContent-CambiaBits {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) and (max-width: 500px) {
+    .ImageUs {
+        top: -140px;
+        right: 0;
+        width: 59vh;
+        height: 59vh;
+        left: 30%;
+    }
+}
+
+
+/* @media screen and (max-width: 600px) {
+    .ImageUs {
+        top: -15%;
+        right: -36%;
+        height: 57vh;
+        width: 57vh;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-height: 810px) {
+    .ImageUs {
+        top: -10%;
+        right: -22%;
+        height: 333px;
+        width: 333px;
+    }
+} */

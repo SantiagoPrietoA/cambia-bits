@@ -1,13 +1,44 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-size: contain;
+    font-family: "open sans";
+    overflow: hidden;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.backgroundApp {
+    background-image: url(/images/Pattern_CambiaBits.png);
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    background-size: auto;
+    z-index: -100;
+}
+
+
+/* @media screen and (max-width: 600px) {
+    .backgroundApp {
+        background-size: contain;
+    }
+} */
+
+.overflow-y {
+    overflow-y: scroll;
+}
+
+a {
+    text-decoration: none;
+    font-family: "montserrat extrabold italic";
+    font-family: "montserrat extrabold";
+    font-style: italic;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "montserrat extrabold italic";
+    font-family: "montserrat extrabold";
+    font-style: italic;
 }

@@ -1,0 +1,93 @@
+.BgImage {
+    position: relative;
+    /* top: -35%; */
+    /* right: -7%; */
+    /* height: 100vh; */
+    z-index: -10;
+}
+
+.bgImage-Image {
+    transform: rotate(-30deg);
+    position: fixed;
+    top: -200px;
+    right: -6%;
+    width: 50%;
+}
+
+@media screen and (min-width: 1367px) {
+    .bgImage-Image {
+        top: -300px;
+        right: -6%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .bgImage-Image {
+        top: -200px;
+        right: -6%;
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .bgImage-Image {
+        top: -200px;
+        right: -6%;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bgImage-Image {
+        top: -145px;
+        right: -10%;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) and (max-width: 500px) {
+    .bgImage-Image {
+        top: -140px;
+        right: 0;
+        width: auto;
+        height: 59vh;
+        left: 30%;
+    }
+}
+
+
+/*
+@media screen and (min-width: 1366px) and (min-height: 1024px) {
+    .BgImage {
+        top: -22%;
+        right: -15%;
+        height: 80vh;
+    }
+}
+
+
+@media screen and (min-width: 1024px) and (min-height: 1366px) {
+    .BgImage {
+        top: -22%;
+        right: -40%;
+        height: 80vh;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .BgImage {
+        top: -15%;
+        right: -36%;
+        height: 57vh;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-height: 810px) {
+    .BgImage {
+        top: -10%;
+        right: -22%;
+        height: 333px;
+    }
+} */
