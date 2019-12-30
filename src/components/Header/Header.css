@@ -76,3 +76,12 @@ svg {
         font-size: .9rem;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .usItem {
+        display: none;
+    }
+    .Header-navContainer {
+        justify-content: space-around;
+    }
+}

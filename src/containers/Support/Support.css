@@ -12,6 +12,10 @@
     overflow-y: scroll;
 }
 
+.Support .SupportContent-Questions p:not(.SupportContent-Title) {
+    line-height: 1.5rem;
+}
+
 .Support ::-webkit-scrollbar {
     width: 0;
 }
@@ -34,6 +38,7 @@
     justify-content: flex-start;
     font-family: "montserrat extrabold";
     font-style: italic;
+    color: #233746;
 }
 
 .Support .back svg {
@@ -156,6 +161,30 @@
     }
     .Support .back {
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 1024px) and (max-width: 1366px) {
+    .BgImage-none {
+        display: none;
+    }
+    .header-Support {
+        position: absolute;
+        height: 60px;
+        width: 80%;
+        border-radius: 0 0 0 60px;
+        top: 0;
+        right: 0px;
+        background-color: #233746;
+        z-index: -10;
+    }
+    .SupportContent-Questions {
+        width: 100%;
+    }
+    .SupportContent {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 

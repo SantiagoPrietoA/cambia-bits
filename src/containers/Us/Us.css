@@ -162,6 +162,23 @@
     }
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 1024px) and (max-width: 1366px) {
+    .ImageUs {
+        width: 75%;
+    }
+    .Us .UsContent-CambiaBits {
+        width: 100%;
+    }
+    .Us {
+        padding-top: 250px;
+        align-items: center;
+        width: 80%;
+    }
+    .menu {
+        top: 200px;
+    }
+}
+
 @media screen and (max-width: 700px) {
     .Us .UsContent-CambiaBits {
         width: 100%;
