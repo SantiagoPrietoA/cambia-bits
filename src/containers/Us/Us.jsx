@@ -161,13 +161,21 @@ class Us extends Component {
     if( this.into ){
       document.getElementById('circleItem').classList.add("circleItemAnimated")
       setTimeout(function(){
+        try {
               document.getElementById('circleItem').classList.remove("circleItemAnimated")
+        } catch (error) {
+          
+        }
 
       }, 700);
     }else  {
       this.into = true;
     }
 
+  }
+
+  componentWillUnmount() {
+     this.into = false;
   }
 
   componentDidMount() {

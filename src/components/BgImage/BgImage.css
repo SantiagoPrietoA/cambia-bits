@@ -1,69 +1,77 @@
-.BgImage {
-    position: relative;
-    /* top: -35%; */
-    /* right: -7%; */
-    /* height: 100vh; */
-    z-index: -10;
-}
-
-.bgImage-Image {
-    transform: rotate(-30deg);
-    position: fixed;
-    top: -200px;
-    right: -6%;
-    width: 50%;
-}
-
-@media screen and (min-width: 1367px) {
-    .bgImage-Image {
-        top: -300px;
-        right: -6%;
-        width: 50%;
+    .BgImage {
+        position: relative;
+        /* top: -35%; */
+        /* right: -7%; */
+        /* height: 100vh; */
+        z-index: -10;
     }
-}
-
-@media screen and (max-width: 1280px) {
+    
     .bgImage-Image {
+        transform: rotate(-30deg);
+        position: fixed;
         top: -200px;
         right: -6%;
         width: 50%;
     }
-}
-
-@media screen and (max-width: 1024px) {
-    .bgImage-Image {
-        top: -200px;
-        right: -6%;
-        width: 55%;
+    
+    @media screen and (min-width: 1367px) {
+        .bgImage-Image {
+            top: -300px;
+            right: -6%;
+            width: 50%;
+        }
     }
-}
-
-@media screen and (max-width: 800px) {
-    .bgImage-Image {
-        top: -145px;
-        right: -10%;
-        width: 70%;
+    
+    @media screen and (max-width: 1280px) {
+        .bgImage-Image {
+            top: -200px;
+            right: -6%;
+            width: 50%;
+        }
     }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 1024px) and (max-width: 1366px) {
-    .bgImage-Image {
-        width: 75%;
+    
+    @media screen and (max-width: 1024px) {
+        .bgImage-Image {
+            top: -200px;
+            right: -6%;
+            width: 55%;
+        }
     }
-}
-
-@media screen and (max-width: 800px) and (max-width: 500px) {
-    .bgImage-Image {
-        top: -140px;
-        right: 0;
-        width: auto;
-        height: 59vh;
-        left: 30%;
+    
+    @media screen and (max-width: 800px) {
+        .bgImage-Image {
+            top: -145px;
+            right: -10%;
+            width: 70%;
+        }
     }
-}
-
-
-/*
+    
+    @media screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 1024px) and (max-width: 1366px) {
+        .bgImage-Image {
+            width: 75%;
+        }
+    }
+    
+    @media screen and (max-width: 500px) {
+        .bgImage-Image {
+            top: -140px;
+            right: 0;
+            width: auto;
+            height: 59vh;
+            left: 30%;
+        }
+    }
+    
+    @media screen and (max-width: 375px) and (min-height: 812px) {
+        .bgImage-Image {
+            top: -145px;
+            right: 0;
+            width: auto;
+            height: 55vh;
+            left: 35%;
+        }
+    }
+    /*
 @media screen and (min-width: 1366px) and (min-height: 1024px) {
     .BgImage {
         top: -22%;
