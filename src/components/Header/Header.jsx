@@ -19,7 +19,7 @@ class Header extends Component {
             <Link to="/" className="textColorWhite">
                 <span>Inicio</span>
             </Link>
-            <Link to="/nosotros" className="textColorWhite usItem">
+            <Link to="/nosotros" className="textColorWhite ">
                 <span>Nosotros</span>
             </Link>
             <Link to="/soporte" className="textColorWhite">

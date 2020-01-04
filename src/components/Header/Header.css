@@ -78,10 +78,8 @@ svg {
 }
 
 @media screen and (max-width: 320px) {
-    .usItem {
-        display: none;
-    }
     .Header-navContainer {
         justify-content: space-around;
+        font-size: .7rem;
     }
 }
