@@ -225,4 +225,20 @@
         height: calc(100vh - 160px);
         align-items: flex-start;
     }
+    .ImageUs {
+        top: -100px;
+        right: 0;
+        width: 56vh;
+        height: 56vh;
+        left: 30%;
+    }
+    .ImageUs-image {
+        width: 75%;
+        left: -20px;
+    }
+    .ImageUs-image-coin {
+        width: 75%;
+        left: -30px;
+        bottom: 25px;
+    }
 }
